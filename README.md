@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  [link naar de website](https://store.billieeilish.com/?srsltid=AfmBOorSzzkawHN1gOdABLZgk0mE4bb3E88AUou-03HkgCPbakYf1R-m) /omschrijving van je eigen ontwerp
+  [Billie Eilish Shop](https://store.billieeilish.com/?srsltid=AfmBOorSzzkawHN1gOdABLZgk0mE4bb3E88AUou-03HkgCPbakYf1R-m)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home pagina  
