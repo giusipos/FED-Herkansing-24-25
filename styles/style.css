@@ -16,7 +16,7 @@
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:blue;
 }
 
 
@@ -29,3 +29,6 @@
 
 /* jouw code */
 
+body {
+  background-image: url("background.jpg");
+}
