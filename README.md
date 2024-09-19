@@ -100,8 +100,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Diya             | Giulietta          | Thi          | Keysha           |
   | ---              | ---                | ---          | ---              |
-  | - Section switch | -             | en ik dit    | en dan ik dat    |
-  | - Rating         | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | - Section switch | -                  | - ?          | - ?              |
+  | - Rating         | -                  | - ?          | - ?              |
   |                  | ...                | ...          | ...              |
 
 
