@@ -18,12 +18,11 @@
 	--color-text: #027399;
 	--color-background:#083659;
 
-	--header-gradient:linear-gradient(#f8a, #fbd);
-	--menu-gradient:linear-gradient(#8af, #bdf);
-	--menu-border:#46f;
-	--button-color:#fff;
-	--button-background:#f46;
-	--title-gradient:linear-gradient(#f46 40%, #f8a 80%);
+	--general-color: black;
+	--header-gradient:linear-gradient(transparent, transparent);
+	--menu-gradient:linear-gradient(black, black);
+	/* --button-color:#fff; */
+	--button-background:transparent;
 }
 
 
@@ -51,7 +50,7 @@ header {
 
 header a {
   padding:.5em 0;
-  color:var(--general-color);
+  color:var(--color-text);
   text-decoration:none;
 }
 
@@ -81,8 +80,8 @@ header button {
   border:none;
   border-radius:.25em; 
   font:inherit;
-  text-align:center;
-  color:var(--button-color);
+  /* text-align:center; */
+  /* color:var(--button-color); */
 }
 
 header button img {
@@ -137,17 +136,8 @@ nav a {
   align-items:center;
   column-gap:.25em;
   
-  border-bottom:solid 1px var(--menu-border);
 }
 
-nav a img {
-  width:auto;
-  height:2em;
-}
-
-nav a.active {
-  font-weight:bold;
-}
 
 body {
 	color: var(--color-text);
