@@ -51,3 +51,4 @@ menuSluitButton.onclick = sluitMenu;
 function sluitMenu() {
   deNav.classList.remove("toonMenu");
 }
+
