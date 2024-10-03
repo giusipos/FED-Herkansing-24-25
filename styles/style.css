@@ -176,7 +176,6 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 
   margin: 0;
-  padding-top: 60px;
 }
 
 main img, main article img {
@@ -334,8 +333,7 @@ input[type="password"] {
 /*  BACKGROUND VIDEO */
 /*********************/
 
-#background-video {
-  position: fixed;
+main section:nth-of-type(1) video {
   width: 100%;
   height: auto;
   left: 0;
@@ -343,14 +341,5 @@ input[type="password"] {
   object-fit: cover;
 }
 
-/* Specific positioning for the top video */
-#top-video {
-  top: 0;
-}
-
-/* Specific positioning for the bottom video */
-#bottom-video {
-  bottom: 0;
-}
 
 
