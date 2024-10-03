@@ -2,7 +2,7 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing: border-box;  
 }
 
 
@@ -18,17 +18,17 @@
 	--color-background:#083659;
 
 	--general-color: black;
-	--header-gradient:linear-gradient(transparent, transparent);
-	--menu-gradient:linear-gradient(black, black);
+	--header-gradient: linear-gradient(transparent, transparent);
+	--menu-gradient: linear-gradient(black, black);
 	/* --button-color:#fff; */
-	--button-background:transparent;
+	--button-background: transparent;
 
   /* shop buttons */
   --color-shop: black;
   --color-shop-button: #10a4ec;
 
   --color-border:#027399;
-  --whiteSpace:1em;
+  --whiteSpace: 1em;
 
 }
 
@@ -41,96 +41,101 @@
 /*    HEADER    */
 /****************/
 
+@media screen and (max-width: 390px) {
 
 header {
-  min-height:4em;
-  padding:0 1em;
-  background-image:var(--header-gradient);
-  line-height:1;
+  min-height: 4em;
+  padding: 0 1em;
+  line-height: 1;
   
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-  
+  position: relative;
+  z-index: 10;
+  background: transparent; /* Transparent background to show the video */
+  color: white;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
 }
 
 header a {
-  padding:.5em 0;
-  color:var(--color-text);
-  text-decoration:none;
+  padding: 0.5em 0;
+  color: var(--color-text);
+  text-decoration: none;
 }
 
 header > a:first-of-type {
   /* om het boek en de titel te positioneren */
-  display:grid;
-  grid-template-columns:min-content min-content;
-  grid-gap:.25em;
-  align-items:center;
+  display: grid;
+  grid-template-columns: min-content min-content;
+  grid-gap: 0.25em;
+  align-items: center;
 }
 
 header > a:first-of-type img {
-  height:3em;
+  height: 3em;
 }
 
 header button {
-  padding:.5em;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
   
-  /* icon en tekst met gap-je naast elkaar */
-  display:flex;
-  align-items:center;
-  gap:.25em;
-  
-  /* standaard styling aanpassen */
-  appearance:none;
-  background-color:var(--button-background);
-  border:none;
-  border-radius:.25em; 
+  appearance: none;
+  background-color: var(--button-background);
+  border: none;
+  border-radius: 0.25em; 
+
+  margin-bottom: 0.5em;
   /* font:inherit; */
   /* text-align:center; */
   /* color:var(--button-color); */
 }
 
 header button img {
-  height:2em;
+  height: 2em;
 }
 
 header > button {
-  order:-1;
-  
+  order: -1;
 }
 
-header > a:last-of-type {
-  /* icon en tekst met gap-je naast elkaar */
-  display:flex;
-  align-items:center;
-  column-gap:.25em;
-}
+/* header > a:last-of-type {
+  display: flex;
+  align-items: center;
+  column-gap: 0.25em;
+} */
 
 /* link icon */
 header > a:last-of-type img {
-  width:auto;
-  height:2em;
+  width: auto;
+  height: 2em;
 }
 
 nav button {
- justify-self:start;
+ justify-self: start;
 }
 
 nav {
-  padding:1em;
+  padding: 1em;
   
-  display:grid;
-  align-content:start;
-  gap:1em;
+  display: grid;
+  align-content: start;
+  gap: 1em;
   
-  background-image:var(--menu-gradient);
+  background-image: var(--menu-gradient);
   
   position: fixed;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 /*   inset:0; */
 
   translate:-100%;
@@ -140,29 +145,23 @@ nav {
 
 /* als menu open is */
 nav.toonMenu {
-  translate:0;
-  
+  translate: 0;
 }
 
 nav ul { 
-  margin:0; 
-  padding:0em;
-  list-style:none;
+  margin: 0; 
+  padding: 0;
+  list-style: none;
 }
 
 nav a {
-  /* icon en tekst met gap-je naast elkaar */
-  display:flex;
-  align-items:center;
-  column-gap:.25em;
-  
+  display: flex;
 }
 
-/* #navbar {
-  position: sticky;
-} */
 
-
+#navbar {
+  position: fixed;
+}
 
 
 
@@ -175,30 +174,34 @@ nav a {
 body {
 	color: var(--color-text);
 	background-color: var(--color-background);
-	background-image: url("background.jpg");
+	/* background-image: url("background.jpg"); */
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+  padding-top: 60px;
 }
+
+main img, main article img {
+    width: 100%;
+    height: auto;
+  }
 
 #shop {
   color: var(--color-shop);
   background-color: var( --color-shop-button);
 
   margin: 0;
-  padding: .5em;
+  padding: 0.5em;
 
   text-decoration: none;
 
   position: absolute;
-  left: 15em;
-  right: 15em;
+  left: 1em;
+  right: 1em;
   text-align: center;
   
 }
-
-
-
-
 
 
 
@@ -252,19 +255,16 @@ a[href$="pdf"]::after {
 	content:" (pdf)";
 }
 
-p::after {
-	content:" (pdf)";
-}
-
 a[href^="mail"]::after {
 	content:" (mail)";
 }
 
 
 form {
-	max-width:20rem;
-	margin-top:var(--whiteSpace);
-	padding:var(--whiteSpace);
+	/* max-width:20rem;
+	margin-top:var(--whiteSpace); */
+	width: 100%;
+  padding: 1em;
 }
 
 label {
@@ -327,4 +327,34 @@ input[type="password"] {
 
 
 
+
+
+
+
+
+
+/*********************/
+/*  BACKGROUND VIDEO */
+/*********************/
+
+#background-video {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: -1; /* Behind all content */
+  object-fit: cover;
+}
+
+/* Specific positioning for the top video */
+#top-video {
+  top: 0;
+}
+
+/* Specific positioning for the bottom video */
+#bottom-video {
+  bottom: 0;
+}
+
+}
 
