@@ -133,7 +133,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | student 1      | Giulietta          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | - hoe krijk ik de achtergrond filmpjes vast op een punt            | en ik dit    | en dan ik dat    |
-  | en dat ook nog | - hoe maak ik grid voor mijn producten | nog een punt | dit wil ik zeker |
+  | en dat ook nog | - hoe maak ik grid voor mijn producten | nog een punt | - hoe laat ik meer ruimte tussen de bubbels |
   | ...            | ...                | ...          | ...              |
 
 
