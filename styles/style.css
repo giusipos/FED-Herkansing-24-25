@@ -41,8 +41,7 @@
 /*    HEADER    */
 /****************/
 
-@media screen and (max-width: 390px) {
-
+/* @media screen and (max-width: 390px) { */
 header {
   min-height: 4em;
   padding: 0 1em;
@@ -158,12 +157,10 @@ nav a {
   display: flex;
 }
 
-
-#navbar {
-  position: fixed;
+#logo {
+  width: 100.66px;
+  height: 40.93px;
 }
-
-
 
 
 
@@ -356,5 +353,5 @@ input[type="password"] {
   bottom: 0;
 }
 
-}
+/* } */
 
