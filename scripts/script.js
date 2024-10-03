@@ -47,5 +47,5 @@ document.addEventListener('mousemove', (event) => {
     setTimeout(() => {
       trail.remove();
     }, 500); // Match this to the CSS transition duration
-  }, 100); // Adjust the delay for how fast the trail should disappear
+  }, 1000); // Adjust the delay for how fast the trail should disappear
 });
