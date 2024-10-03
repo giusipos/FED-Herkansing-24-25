@@ -14,8 +14,7 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text: #027399;
+	--color-text: #10a4ec;
 	--color-background:#083659;
 
 	--general-color: black;
@@ -23,6 +22,14 @@
 	--menu-gradient:linear-gradient(black, black);
 	/* --button-color:#fff; */
 	--button-background:transparent;
+
+  /* shop buttons */
+  --color-shop: black;
+  --color-shop-button: #10a4ec;
+
+  --color-border:#027399;
+  --whiteSpace:1em;
+
 }
 
 
@@ -119,7 +126,7 @@ nav {
   
   background-image:var(--menu-gradient);
   
-  position:fixed;
+  position: fixed;
   left:0;
   right:0;
   top:0;
@@ -151,6 +158,10 @@ nav a {
   
 }
 
+/* #navbar {
+  position: sticky;
+} */
+
 
 
 
@@ -165,10 +176,153 @@ body {
 	color: var(--color-text);
 	background-color: var(--color-background);
 	background-image: url("background.jpg");
-	text-transform:uppercase;
+	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+#shop {
+  color: var(--color-shop);
+  background-color: var( --color-shop-button);
+
+  margin: 0;
+  padding: .5em;
+
+  text-decoration: none;
+
+  position: absolute;
+  left: 15em;
+  right: 15em;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+/********************/
+/*       FORM       */
+/********************/
+
+.active {
+	font-weight:700;
+	text-decoration:none;
+	
+	cursor:default;
+}
+
+form > a {
+	display:block;
+}
+
+p:nth-of-type(1) {
+	font-weight:700;
+}
+
+
+a:hover,
+a:focus {
+	text-decoration-thickness:.12em;
+	text-underline-offset: 0.25em;
+	outline:none;
+}
+
+header a:hover,
+header a:focus {
+	text-decoration-style:double;
+}
+
+input:focus {
+	border-color: var(--color-shop-button);
+}
+
+input:checked {
+	accent-color:var(--color-shop-button);
+}
+
+
+input[type="password"] {
+  color: var(--color-shop-button);
+}
+
+a[href$="pdf"]::after {
+	content:" (pdf)";
+}
+
+p::after {
+	content:" (pdf)";
+}
+
+a[href^="mail"]::after {
+	content:" (mail)";
+}
+
+
+form {
+	max-width:20rem;
+	margin-top:var(--whiteSpace);
+	padding:var(--whiteSpace);
+}
+
+label {
+	display:block; 
+}
+
+input {
+	border-style:solid;
+	border-width:1px;
+	border-color:var(--color-border);
+	
+	font:inherit;
+	color:inherit;
+}
+
+input[type="text"], 
+input[type="password"] {
+	width:100%;
+	margin-bottom:var(--whiteSpace);
+	appearance:none;
+	background-color:var(--color-background);
+	outline:none;
+}
+
+#login {
+  color: var(--color-shop);
+  background-color: var( --color-shop-button);
+
+  margin: 0;
+  padding: .5em;
+
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/*********************/
+/*      CURSOR        */
+/*********************/
+
+.cursor-trail {
+  position: absolute;
+  pointer-events: none;
+  width: 10px; /* Adjust the size of the trail */
+  height: 10px;
+  opacity: 0.5;
+  transition: opacity 0.5s ease-out;
+}
+
+.fade-out {
+  opacity: 0;
+}
 
 
 

@@ -13,12 +13,9 @@
 </head>
 
 <body>
-	<header>
-		<a href="#">
-			<h1> <img src="images/icons/logo2.png" alt="hello welcome to the website of billie eilish"> </h1>
-		</a>
-
-			<button aria-hidden="true"><img src="images/icons/hamburger.png" alt="hamburger" /></button>
+	<header id="navbar">
+		<a href="#"><h1> <img src="images/icons/logo.png" alt="hello welcome to the website of billie eilish"> </h1></a>
+		<button aria-hidden="true"><img src="images/icons/hamburger.png" alt="hamburger" /></button>
 		<nav>
 			 <button aria-hidden="true"><img src="images/icons/close.png" alt="close" /></button>
 			 <ul>
@@ -37,89 +34,105 @@
 		<a href="#"><img aria-hidden="true" src="images/icons/search.png" /></a>
 	</header>
 
+
 	<main>
+		<img id="hitme" src="images/hardandsoft.png" alt="hit me hard and soft text">
+		<section>
+			<h2>merch</h2>
 
-	<img class="hitme" src="images/hardandsoft.png" alt="hit me hard and soft text">
+			<article>
+				<h3>contrast stitch cover crop tank</h3>
+				<p>$45.00</p>
+				<img src="images/tanktop.png" alt="selfie billie with shirt">
+			</article>
 
-	
-	<section>
-		<h2>merch</h2>
+			<article>
+				<h3>hit me hard and soft tour tee</h3>
+				<p>$45.00</p>
+				<img src="images/hitmeshirt.png" alt="selfie billie with shirt">
+			</article>
 
-		<article>
-			<h3>contrast stitch cover crop tank</h3>
-			<p>$45.00</p>
-			<img src="images/tanktop.png" alt="selfie billie with shirt">
-		</article>
+			<a id="shop" href="#"><strong>shop all merch</strong></a>
+		</section>
 
-		<article>
-			<h3>hit me hard and soft tour tee</h3>
-			<p>$45.00</p>
-			<img src="images/hitmeshirt.png" alt="selfie billie with shirt">
-		</article>
+		<section>
+			<h2>music</h2>
 
-		<a href="#">shop all merch</a>
-	</section>
+			<article>
+				<h3>hit me hard and soft excl. vinyl</h3>
+				<p>$33.00</p>
+				<img src="images/exclvinyl.png" alt="billie holding a vinyl">
+			</article>
 
-	<section>
-		<h2>music</h2>
+			<article>
+				<h3>hit me hard and soft spotify fans first vinyl</h3>
+				<p>$33.00</p>
+				<img src="images/spotifyvinyl.png" alt="selfie billie with shirt">
+			</article>
 
-		<article>
-			<h3>hit me hard and soft excl. vinyl</h3>
-			<p>$33.00</p>
-			<img src="images/exclvinyl.png" alt="billie holding a vinyl">
-		</article>
+			<a id="shop" href="#"><strong>shop all music</strong></a>
+		</section>
 
-		<article>
-			<h3>hit me hard and soft spotify fans first vinyl</h3>
-			<p>$33.00</p>
-			<img src="images/spotifyvinyl.png" alt="selfie billie with shirt">
-		</article>
-
-		<a href="#">shop all music</a>
-	</section>
-
-	<section>
-		<h2>blosh</h2>
-		
-		<article>
-			<h3>hit me hard and soft blue blosh necklace</h3>
-			<p>$60.00</p>
-			<img src="images/bluebloshnecklace.png" alt="selfie billie with shirt">
-		</article>
-
-		<article>
-			<h3>racer green beanie</h3>
-			<p>$25.00</p>
-			<img src="images/greenbeanie.png" alt="selfie billie with shirt">
-		</article>
+		<section>
+			<h2>blosh</h2>
 			
-		<a href="#">shop all blohsh</a>
-	</section>
+			<article>
+				<h3>hit me hard and soft blue blosh necklace</h3>
+				<p>$60.00</p>
+				<img src="images/bluebloshnecklace.png" alt="selfie billie with shirt">
+			</article>
 
-	<section> 
-		<img src="images/tourimage.png" alt="buy tour tickets">
+			<article>
+				<h3>racer green beanie</h3>
+				<p>$25.00</p>
+				<img src="images/greenbeanie.png" alt="selfie billie with shirt">
+			</article>
+				
+			<a id="shop" href="#"><strong>shop all blohsh</strong></a>
+		</section>
 
-		<h4>sign up to hear updates from billie eilish</h4>
-		<p>Join the list</p>
+		<section> 
+			<img src="images/tourimage.png" alt="buy tour tickets">
 
-		<a href="#">sign up now</a>
-	</section>
+			<h4>sign up to hear updates from billie eilish</h4>
+			<p>Join the list</p>
 
+			<a id="shop" href="#"><strong>sign up now</strong></a>
+			<form>
+				<label for="username">
+					Email
+					<input type="text" id="username">
+				</label> 
+				
+				<label for="password">
+					Password
+					<input type="password" id="password">
+				</label>
+
+				<label for="news">
+					<input type="checkbox" id="news" value="news" checked>
+					Receive newsletters
+				</label>
+				
+				<a href="#">Forgot password</a>
+				
+				<a id="login" href="#"><strong>Log in</strong></a>
+			</form>
+		</section>
 	</main>	
 
+
 	<footer>
-	<ul>
-		<li>help and support</li>
-		<li>terms</li>
-		<li>privacy</li>
-		<li>do not sell my personal information</li>
-		<li>cookie choices</li>
-	</ul>
+		<ul>
+			<li>help and support</li>
+			<li>terms</li>
+			<li>privacy</li>
+			<li>do not sell my personal information</li>
+			<li>cookie choices</li>
+		</ul>
 	</footer>
 
 	<script defer src="scripts/script.js"></script>
 </body>
-
-
 
 </html>
