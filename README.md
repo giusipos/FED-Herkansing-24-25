@@ -100,7 +100,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Diya             | Giulietta          | Thi          | Keysha           |
   | ---              | ---                | ---          | ---              |
-  | - Section switch | -  Hoe je een form kan maken                | - ?          | - ?              |
+  | - Section switch | -  Hoe krijg ik een trail achter mijn cursor.              | - ?          | - ?              |
   | - Rating         | -                  | - ?          | - ?              |
   |                  | ...                | ...          | ...              |
 
@@ -108,10 +108,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Hoe je een caroussel moet maken
+  - Hoe kan je wanneer je met je muis over een plaatje heen gaat een ander plaatje laten verschijnen.
+  - 
 
 </details>
 
@@ -131,10 +130,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | student 1      | Giulietta          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | dit bespreken  | - hoe krijk ik de achtergrond filmpjes vast op een punt            | en ik dit    | en dan ik dat    |
+  | en dat ook nog | - hoe maak ik grid voor mijn producten | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
