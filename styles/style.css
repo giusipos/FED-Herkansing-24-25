@@ -31,10 +31,9 @@
 
 
 /****************/
-/* JOUW STYLING */
+/*    HEADER    */
 /****************/
 
-/* jouw code */
 
 header {
   min-height:4em;
@@ -94,6 +93,19 @@ header > button {
   
 }
 
+header > a:last-of-type {
+  /* icon en tekst met gap-je naast elkaar */
+  display:flex;
+  align-items:center;
+  column-gap:.25em;
+}
+
+/* link icon */
+header > a:last-of-type img {
+  width:auto;
+  height:2em;
+}
+
 nav button {
  justify-self:start;
 }
@@ -145,8 +157,9 @@ nav a {
 
 
 
-
-
+/****************/
+/*    BODY    */
+/****************/
 
 body {
 	color: var(--color-text);
