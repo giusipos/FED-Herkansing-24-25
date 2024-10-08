@@ -14,6 +14,12 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
+  /* --------------------------LIGHT/DARK MODE------------------------------ */
+  color-scheme:light dark;
+
+  --accent-color:var(--color-theme);
+  /* ----------------------------------------------------------------------- */
+
 	--color-text: #10a4ec;
 	--color-background:#083659;
 
@@ -23,7 +29,7 @@
 	/* --button-color:#fff; */
 	--button-background: transparent;
 
-  /* shop buttons */
+  /* --------shop buttons------- */
   --color-shop: black;
   --color-shop-button: #10a4ec;
 
@@ -40,8 +46,6 @@
 /****************/
 /*    HEADER    */
 /****************/
-
-/* @media screen and (max-width: 390px) { */
 header {
   min-height: 4em;
   padding: 0 1em;
@@ -53,7 +57,7 @@ header {
 
   position: fixed;
   z-index: 10;
-  background: transparent; /* Transparent background to show the video */
+  background: transparent; /* transparent background to show the video */
   color: white;
 
   top: 0;
@@ -69,7 +73,6 @@ header a {
 }
 
 header > a:first-of-type {
-  /* om het boek en de titel te positioneren */
   display: grid;
   grid-template-columns: min-content min-content;
   grid-gap: 0.25em;
