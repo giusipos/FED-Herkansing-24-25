@@ -1,4 +1,4 @@
-console.log("hi");
+console.log("billie");
 
 /******************************/
 /*        MENU button         */
@@ -44,11 +44,4 @@ document.addEventListener('mousemove', (event) => {
   trail.addEventListener("animationend", function() {
     trail.remove();
   })
-
-
-  // Remove the trail after a short delay
-  // setTimeout(() => {
-      // trail.remove();
-  // }, 1500); 
-  // Adjust the delay for how fast the trail should disappear
 });
