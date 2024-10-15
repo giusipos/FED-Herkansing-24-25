@@ -41,11 +41,14 @@ document.addEventListener('mousemove', (event) => {
   // Append the trail to the body
   document.body.appendChild(trail);
 
+  trail.addEventListener("animationend", function() {
+    trail.remove();
+  })
+
+
   // Remove the trail after a short delay
-  setTimeout(() => {
-    trail.classList.add('fade-out');
-    setTimeout(() => {
-      trail.remove();
-    }, 500); // Match this to the CSS transition duration
-  }, 1000); // Adjust the delay for how fast the trail should disappear
+  // setTimeout(() => {
+      // trail.remove();
+  // }, 1500); 
+  // Adjust the delay for how fast the trail should disappear
 });

@@ -1,6 +1,14 @@
 /**************/
 /* CSS REMEDY */
 /**************/
+@font-face {
+  /* Equity A text - regular */
+  font-family: 'billiefont';
+  src: url("../fonts/font.woff") format('woff');
+  /* font-weight: normal;
+  font-style: normal; */
+}
+
 *, *::after, *::before {
   box-sizing: border-box;  
 }
@@ -176,7 +184,7 @@ body {
 	background-color: var(--color-background);
 	/* background-image: url("background.jpg"); */
 	text-transform: uppercase;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'billiefont';
 
   margin: 0;
 }
@@ -323,7 +331,7 @@ input[type="password"] {
   height: 10px;
   opacity: 0.5;
 
-  animation: bubbel-ani 1s ease-out;
+  animation: bubbel-ani 1.5s ease-out forwards;
 }
 
 
@@ -373,18 +381,23 @@ section:nth-of-type(2) ul {
   overflow: auto;
   white-space: nowrap;
   margin: 1em;
+  scrollbar-width: none;
 }
  
 section:nth-of-type(2) ul li {
   display: inline-block;
   padding: 0;
-  padding-left: 0.5em;
- 
+  /* padding-left: 0.5em; */
 }
  
 section:nth-of-type(2) ul li p {
   padding: 0.2em;
  
+}
+
+section:nth-of-type(3) ul li h3 {
+  padding: 0.2em;
+
 }
  
 /* section:nth-of-type(2) ul li a p {
@@ -402,6 +415,7 @@ section:nth-of-type(3) ul {
   overflow: auto;
   white-space: nowrap;
   margin: 1em;
+  scrollbar-width: none;
 }
  
 section:nth-of-type(3) ul li {
@@ -428,6 +442,7 @@ section:nth-of-type(4) ul {
   overflow: auto;
   white-space: nowrap;
   margin: 1em;
+  scrollbar-width: none;
 }
  
 section:nth-of-type(4) ul li {
