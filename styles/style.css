@@ -388,15 +388,15 @@ main section:nth-of-type(1) video {
   width: 100%;
   height: auto;
   left: 0;
-  z-index: -1; /* Behind all content */
+  z-index: -1;
   object-fit: cover;
 }
 
-main section:nth-of-type(2) video {
+main section:nth-of-type(6) video {
   width: 100%;
   height: auto;
   left: 0;
-  z-index: -1; /* Behind all content */
+  z-index: -1; 
   object-fit: cover;
 }
 
