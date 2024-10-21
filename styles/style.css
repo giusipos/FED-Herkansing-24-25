@@ -230,54 +230,10 @@ main img, main article img {
   height: auto;
 }
 
-section:nth-of-type(2) > a {
-  color: var(--color-shop);
-  background-color: var( --color-shop-button);
-
-  margin: 0;
-  padding: 0.5em;
-
-  text-decoration: none;
-
-  position: absolute;
-  left: 1em;
-  right: 1em;
-  text-align: center;
-}
-
-section:nth-of-type(3) > a {
-  color: var(--color-shop);
-  background-color: var(--color-shop-button);
-
-  margin: 0;
-  padding: 0.5em;
-
-  text-decoration: none;
-
-  position: absolute;
-  left: 1em;
-  right: 1em;
-  text-align: center;
-}
-
-section:nth-of-type(4)>a {
-  color: var(--color-shop);
-  background-color: var(--color-shop-button);
-
-  margin: 0;
-  padding: 0.5em;
-
-  text-decoration: none;
-
-  position: absolute;
-  left: 1em;
-  right: 1em;
-  text-align: center;
-}
-
 main section h2 {
-  padding-top: 3em;
-  padding-left: 1em;
+  padding-top: 5em;
+  padding-left: 1.5em;
+  padding-bottom: .5em;
 }
 
 section:nth-of-type(7) img {
@@ -332,6 +288,20 @@ section:nth-of-type(2) img {
 
 }
 
+
+section:nth-of-type(2) > a {
+  position: absolute;
+  left: 6em;
+  right: 6em;
+  text-align: center;
+
+  color: var(--color-shop);
+  background-color: var(--color-shop-button);
+  padding: .5em;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
 /* ---------------------- MUSIC ------------------------*/
 
 section:nth-of-type(3) ul {
@@ -360,6 +330,19 @@ section:nth-of-type(3) img {
   height: 15em;
   object-fit: cover;
 
+}
+
+section:nth-of-type(3)>a {
+  position: absolute;
+  left: 6em;
+  right: 6em;
+  text-align: center;
+  
+  color: var(--color-shop);
+  background-color: var(--color-shop-button);
+  padding: .5em;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 
@@ -392,6 +375,19 @@ section:nth-of-type(4) img {
   height: 15em;
   object-fit: cover;
 
+}
+
+section:nth-of-type(4)>a {
+  position: absolute;
+  left: 6em;
+  right: 6em;
+  text-align: center;
+  
+  color: var(--color-shop);
+  background-color: var(--color-shop-button);
+  padding: .5em;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 
