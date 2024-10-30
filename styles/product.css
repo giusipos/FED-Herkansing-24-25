@@ -230,12 +230,6 @@ body {
     margin: 0;
 }
 
-h2 {
-    padding-top: 5em;
-    padding-left: 1.5em;
-    padding-bottom: .5em;
-}
-
 
 /* ----------- ADD TO CHART BUTTON --------------- */
 
@@ -262,35 +256,28 @@ section > a:hover {
 
 
 
+/* -------------- IMAGES --------------- */
 
-
-section img {
+ main section img {
     width: 100%;
-    height: 15em;
+    height: 30em;
     object-fit: cover;
+    display: flex;
     order: -1;
 }
 
-section ul {
-    overflow: auto;
-    scrollbar-width: none;
-    display: flex;
-    list-style-type: none;
-}
 
-section ul li {
-    width: 15em;
-    display: flex;
-}
 
-section ul li h3 {
+/* --------------- TEXT --------------- */
+
+section ul li h2 {
     font-size: 1em;
 }
 
 section ul li p {
     font-size: 1em;
     font-family: 'billiefont2';
-}
+} 
 
 
 
