@@ -118,6 +118,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+
 }
 
 header a {
@@ -230,15 +231,16 @@ body {
     margin: 0;
 }
 
+main{
+    margin-top: 4.5rem;
+}
+
 
 /* ----------- ADD TO CHART BUTTON --------------- */
 
 section > a {
-    position: absolute;
-    left: 6em;
-    right: 6em;
     text-align: center;
-
+    margin: 0 1.5em;
     color: var(--color-shop);
     background-color: var(--color-shop-button);
     padding: .5em;
@@ -258,27 +260,80 @@ section > a:hover {
 
 /* -------------- IMAGES --------------- */
 
- main section img {
-    width: 100%;
+main section{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+main section > ul:nth-of-type(1){
+    order: -1;
+    display: flex;
+    overflow-x: auto;
+    padding: 0;
+    list-style: none;
+
+}
+ main section ul:nth-of-type(1) li img {
+    min-width: 100vw;
     height: 30em;
     object-fit: cover;
     display: flex;
-    order: -1;
+
 }
+main section > ul:nth-of-type(2){
+    order: -1;
+    display: flex;
+    overflow-x: auto;
+    padding: 0;
+    list-style: none;
+    width: 75vw;
+}
+
+main section ul:nth-of-type(2) li img {
+    max-width: 20vw;
+    height: 20vw;
+}
+
 
 
 
 /* --------------- TEXT --------------- */
 
-section ul li h2 {
+section h2 {
     font-size: 1em;
+    margin: 0 1.5em;
 }
 
-section ul li p {
+section p {
     font-size: 1em;
     font-family: 'billiefont2';
+    margin: 0 1.5em;
 } 
+section label{
+    font-size: 1em;
+    font-family: 'billiefont2';
+    margin: 0 1.5em;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
 
+section label input{
+    width: 3em;
+    background: none;
+    border:none;
+    margin: .5em 0;
+}
+section small{
+    font-size: .75em;
+    font-family: 'billiefont2';
+    margin: 0 1.75em;
+}
+section p:last-of-type{
+    text-transform: capitalize;
+    font-size: .9;
+}
 
 
 

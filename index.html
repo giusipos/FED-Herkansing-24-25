@@ -1,193 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="Giulietta Sipos">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Billie Eilish | Store - Billie Eilish | Store</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/icons/logo2.png">
-</head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Giulietta Sipos" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<body>
-	<header>
-		<a href="#"><h1> <img id="logo" src="images/icons/logo.png" alt="hello welcome to the website of billie eilish"> </h1></a>
-		<button aria-hidden="true"><img src="images/icons/hamburger.png" alt="hamburger" /></button>
-		<nav>
-			 <button aria-hidden="true"><img src="images/icons/close.png" alt="close" /></button>
-			 <ul>
-				<li><a class="active">merch</a></li>
-				<li><a class="#">music</a></li>
-				<li><a class="#">collections</a></li>
-				<li><a class="#">billie x nike</a></li>
-				<li><a class="#">sustainability</a></li>
-				<li><a class="#">tour</a></li>
-				<li><a class="#">billie's kitchen</a></li>
-				<li><a class="#">more</a></li>
-				<li><a class="#">login</a></li>
-				<li><a class="#">create account</a></li>
-			 </ul>
-		</nav>
-		<a href="#"><img aria-hidden="true" src="images/icons/search.png" alt="search icon"/></a>
-	</header>
+		<title>Billie Eilish | Store - Billie Eilish | Store</title>
 
+		<link href="styles/style.css" rel="stylesheet" />
 
-	<main>
-		<section>
-    		<video autoplay loop muted>
-      			<source src="images/doorbackground.mp4" type="video/mp4">
-    		</video>
-  		</section>
-		<h5>hit me hard and soft</h5>
+		<link rel="icon" type="image/svg+xml" href="images/icons/logo2.png" />
+	</head>
 
-		<section>
-			<h2>merch</h2>
-			<ul>
-				<li id="cs_slide1">
-					<a>
-						<h3>contrast stitch cover crop tank</h3>
-						<p>$45.00</p>
-						<img src="images/tanktop.png" alt="selfie billie with shirt">
-						<img src="images/solo/tanktopsolo.png" alt="selfie billie with shirt">
-					</a>
-				</li>
+	<body>
+		<header>
+			<a href="#"
+				><h1>
+					<img
+						id="logo"
+						src="images/icons/logo.png"
+						alt="hello welcome to the website of billie eilish" /></h1
+			></a>
+			<button aria-hidden="true">
+				<img src="images/icons/hamburger.png" alt="hamburger" />
+			</button>
+			<nav>
+				<button aria-hidden="true">
+					<img src="images/icons/close.png" alt="close" />
+				</button>
+				<ul>
+					<li>
+						<details name="nav-details">
+							<summary>merch</summary>
+							<ul
+								class="header__navigation-dropdown-container menu-container text-left flex flex-col gap-y-sm-xl gap-x-lg-sm md:gap-x-container-sm py-container-xs px-container-xs c-bg-surface c-text-on-surface"
+								x-show="merch"
+								@click.away="merch = false"
+								style="">
+								<li class="px-lg-md no-underline gap-y-sm-xl">
+									<a
+										href="/web/20240916072634/https://store.billieeilish.com/collections/hit-me-hard-and-soft-merch">
+										HIT ME HARD AND SOFT
+									</a>
+								</li>
 
-				<li id="cs_slide2">
-					<a>
-						<h3>hit me hard and soft tour tee</h3>
-						<p>$45.00</p>
-						<img src="images/hitmeshirt.png" alt="selfie billie with shirt">
-						<img src="images/solo/hitmeshirtsolo.png" alt="selfie billie with shirt">
-					</a>
-				</li>
+								<li class="px-lg-md no-underline gap-y-sm-xl">
+									<a
+										href="/web/20240916072634/https://store.billieeilish.com/collections/apparel">
+										APPAREL
+									</a>
+								</li>
 
-				<li id="cs_slide3">
-					<a>
-						<h3>blue & red zip hoodie</h3>
-						<p>$110.00</p>
-						<img src="images/sweater.png" alt="selfie billie with shirt">
-						<img src="images/solo/sweatersolo.png" alt="selfie billie with shirt">
-					</a>
-				</li>
+								<li class="px-lg-md no-underline gap-y-sm-xl">
+									<a
+										href="/web/20240916072634/https://store.billieeilish.com/collections/accessories">
+										ACCESSORIES
+									</a>
+								</li>
 
-				<li id="cs_slide4">
-					<a>
-						<h3>hit me hard and soft slide belt</h3>
-						<p>$30.00</p>
-						<img src="images/belt.png" alt="selfie billie with shirt">
-						<img src="images/solo/beltsolo.png" alt="selfie billie with shirt">
-					</a>
-				</li>
+								<li class="px-lg-md no-underline gap-y-sm-xl">
+									<a
+										href="/web/20240916072634/https://store.billieeilish.com/collections/billie-x-nike">
+										BILLIE X NIKE
+									</a>
+								</li>
 
-				<li id="cs_slide5">
-					<a>
-						<h3>hfalling ribbed crop tank</h3>
-						<p>$45.00</p>
-						<img src="images/top.png" alt="selfie billie with shirt">
-						<img src="images/solo/shirtsolo.png" alt="selfie billie with shirt">
-					</a>
-				</li>
+								<li class="px-lg-md no-underline gap-y-sm-xl">
+									<a
+										href="/web/20240916072634/https://store.billieeilish.com/collections/kids">
+										KIDS
+									</a>
+								</li>
 
-				<li id="cs_slide6">
-					<a>
-						<h3>hfalling ribbed crop tank</h3>
-						<p>$45.00</p>
-						<img src="images/top.png" alt="selfie billie with shirt">
-						<img src="images/solo/shirtsolo.png" alt="selfie billie with shirt">
-					</a>
-				</li>
-			</ul>
+								<li class="px-lg-md no-underline gap-y-sm-xl">
+									<a
+										href="/web/20240916072634/https://store.billieeilish.com/collections/merch">
+										SHOP ALL
+									</a>
+								</li>
+							</ul>
+						</details>
+					</li>
+					<li><a class="#">music</a></li>
+					<li><a class="#">collections</a></li>
+					<li><a class="#">billie x nike</a></li>
+					<li><a class="#">sustainability</a></li>
+					<li><a class="#">tour</a></li>
+					<li><a class="#">billie's kitchen</a></li>
+					<li><a class="#">more</a></li>
+					<li><a class="#">login</a></li>
+					<li><a class="#">create account</a></li>
+				</ul>
+			</nav>
 
-			<a href="#"><strong>shop all merch</strong></a>
-		</section>
+			<a href="#"
+				><svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="-64 0 576 512"
+					class="w-full h-full icon icon--search"
+					fill="currentColor">
+					<path
+						d="M507.3 484.7l-141.5-141.5C397 306.8 415.1 259.7 415.1 208c0-114.9-93.13-208-208-208S-.0002 93.13-.0002 208S93.12 416 207.1 416c51.68 0 98.85-18.96 135.2-50.15l141.5 141.5C487.8 510.4 491.9 512 496 512s8.188-1.562 11.31-4.688C513.6 501.1 513.6 490.9 507.3 484.7zM208 384C110.1 384 32 305 32 208S110.1 32 208 32S384 110.1 384 208S305 384 208 384z"></path>
+				</svg>
+			</a>
 
-		<section>
-			<h2>music</h2>
-			<ul>
-				<li>
-					<a>
-						<h3>hit me hard and soft excl. vinyl</h3>
-						<p>$33.00</p>
-						<img src="images/exclvinyl.png" alt="billie holding a vinyl">
-						<img src="images/solo/exclvinylsolo.png" alt="billie holding a vinyl">
-					</a>
-				</li>
-				
-				<li>
-					<a>
-						<h3>hit me hard and soft spotify fans first vinyl</h3>
-						<p>$33.00</p>
-						<img src="images/spotifyvinyl.png" alt="selfie billie with shirt">
-						<img src="images/solo/spotifyvinylsolo.png" alt="selfie billie with shirt">
-					</a>
-				</li>
-			</ul>
+			<a href="#"
+				><svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 576 512"
+					class="w-full h-full icon icon--cart"
+					fill="currentColor">
+					<path
+						d="M80 0C87.47 0 93.95 5.17 95.6 12.45L100 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H158.2L172.8 352H496C504.8 352 512 359.2 512 368C512 376.8 504.8 384 496 384H160C152.5 384 146.1 378.8 144.4 371.5L67.23 32H16C7.164 32 0 24.84 0 16C0 7.164 7.164 0 16 0H80zM107.3 64L150.1 256H487.8L541.8 64H107.3zM128 456C128 425.1 153.1 400 184 400C214.9 400 240 425.1 240 456C240 486.9 214.9 512 184 512C153.1 512 128 486.9 128 456zM184 480C197.3 480 208 469.3 208 456C208 442.7 197.3 432 184 432C170.7 432 160 442.7 160 456C160 469.3 170.7 480 184 480zM512 456C512 486.9 486.9 512 456 512C425.1 512 400 486.9 400 456C400 425.1 425.1 400 456 400C486.9 400 512 425.1 512 456zM456 432C442.7 432 432 442.7 432 456C432 469.3 442.7 480 456 480C469.3 480 480 469.3 480 456C480 442.7 469.3 432 456 432z"></path>
+				</svg>
+			</a>
+		</header>
 
-			<a href="#"><strong>shop all music</strong></a>
-		</section>
+		<main>
+			<section>
+				<video autoplay loop muted>
+					<source src="images/doorbackground.mp4" type="video/mp4" />
+				</video>
+			</section>
+			<h5>hit me hard and soft</h5>
 
-		<section>
-			<h2>blosh</h2>
-			<ul>
-				<li>
-					<a href="#">
-						<h3>hit me hard and soft blue blosh necklace</h3>
-						<p>$60.00</p>
-						<img src="images/bluebloshnecklace.png" alt="selfie of billie eilish with a necklace">
-						<img src="images/solo/bluenecklacesolo.png" alt="necklace">
-					</a>
-				</li>
+			<section>
+				<h2>merch</h2>
+				<ul>
+					<li id="cs_slide1">
+						<a>
+							<h3>contrast stitch cover crop tank</h3>
+							<p>$45.00</p>
+							<img src="images/tanktop.png" alt="selfie billie with shirt" />
+							<img
+								src="images/solo/tanktopsolo.png"
+								alt="selfie billie with shirt" />
+						</a>
+					</li>
 
-				<li>
-					<a href="">
-						<h3>racer green beanie</h3>
-						<p>$25.00</p>
-						<img src="images/greenbeanie.png" alt="selfie billie with shirt">
-						<img src="images/greenbeanie.png" alt="selfie billie with shirt">
-					</a>
-				</li>
-			</ul>
-				
-			<a href="#"><strong>shop all blosh</strong></a>
-		</section>
+					<li id="cs_slide2">
+						<a>
+							<h3>hit me hard and soft tour tee</h3>
+							<p>$45.00</p>
+							<img src="images/hitmeshirt.png" alt="selfie billie with shirt" />
+							<img
+								src="images/solo/hitmeshirtsolo.png"
+								alt="selfie billie with shirt" />
+						</a>
+					</li>
 
-		<section> 
-			<h4>sign up to hear updates from billie eilish</h4>
-			<form>
-				<label for="username">
-					Email
-					<input type="text" id="username">
-				</label> 
-				
-				<label for="password">
-					Password
-					<input type="password" id="password">
-				</label>
+					<li id="cs_slide3">
+						<a>
+							<h3>blue & red zip hoodie</h3>
+							<p>$110.00</p>
+							<img src="images/sweater.png" alt="selfie billie with shirt" />
+							<img
+								src="images/solo/sweatersolo.png"
+								alt="selfie billie with shirt" />
+						</a>
+					</li>
 
-				<label for="news">
-					<input type="checkbox" id="news" value="news" checked>
-					Billie Eilish
-				</label>
-			</form>
-		</section>
+					<li id="cs_slide4">
+						<a>
+							<h3>hit me hard and soft slide belt</h3>
+							<p>$30.00</p>
+							<img src="images/belt.png" alt="selfie billie with shirt" />
+							<img
+								src="images/solo/beltsolo.png"
+								alt="selfie billie with shirt" />
+						</a>
+					</li>
 
-		<section>
-			<a href="#"><strong>sign up now</strong></a>
-		</section>
-			
-		<section>
-    		<video autoplay loop muted>
-      			<source src="images/billiebackground.mp4" type="video/mp4">
-   			</video>
-		</section>
+					<li id="cs_slide5">
+						<a>
+							<h3>hfalling ribbed crop tank</h3>
+							<p>$45.00</p>
+							<img src="images/top.png" alt="selfie billie with shirt" />
+							<img
+								src="images/solo/shirtsolo.png"
+								alt="selfie billie with shirt" />
+						</a>
+					</li>
 
-		<section>
-			<img src="images/tourimage.png" alt="buy tour tickets">
-		</section>
-	</main>	
+					<li id="cs_slide6">
+						<a>
+							<h3>hfalling ribbed crop tank</h3>
+							<p>$45.00</p>
+							<img src="images/top.png" alt="selfie billie with shirt" />
+							<img
+								src="images/solo/shirtsolo.png"
+								alt="selfie billie with shirt" />
+						</a>
+					</li>
+				</ul>
+
+				<div>
+					<label class="text-shadow">
+						<input type="radio" name="radios" value="1" checked />
+					</label>
+					<label class="text-shadow">
+						<input type="radio" name="radios" value="2" />
+					</label>
+					<label class="text-shadow">
+						<input type="radio" name="radios" value="3" />
+					</label>
+				</div>
+
+				<a href="#"><strong>shop all merch</strong></a>
+			</section>
+
+			<section>
+				<h2>music</h2>
+				<ul>
+					<li>
+						<a>
+							<h3>hit me hard and soft excl. vinyl</h3>
+							<p>$33.00</p>
+							<img src="images/exclvinyl.png" alt="billie holding a vinyl" />
+							<img
+								src="images/solo/exclvinylsolo.png"
+								alt="billie holding a vinyl" />
+						</a>
+					</li>
+
+					<li>
+						<a>
+							<h3>hit me hard and soft spotify fans first vinyl</h3>
+							<p>$33.00</p>
+							<img
+								src="images/spotifyvinyl.png"
+								alt="selfie billie with shirt" />
+							<img
+								src="images/solo/spotifyvinylsolo.png"
+								alt="selfie billie with shirt" />
+						</a>
+					</li>
+				</ul>
+
+				<a href="#"><strong>shop all music</strong></a>
+			</section>
+
+			<section>
+				<h2>blosh</h2>
+				<ul>
+					<li>
+						<a href="#">
+							<h3>hit me hard and soft blue blosh necklace</h3>
+							<p>$60.00</p>
+							<img
+								src="images/bluebloshnecklace.png"
+								alt="selfie of billie eilish with a necklace" />
+							<img src="images/solo/bluenecklacesolo.png" alt="necklace" />
+						</a>
+					</li>
+
+					<li>
+						<a href="">
+							<h3>racer green beanie</h3>
+							<p>$25.00</p>
+							<img
+								src="images/greenbeanie.png"
+								alt="selfie billie with shirt" />
+							<img
+								src="images/greenbeanie.png"
+								alt="selfie billie with shirt" />
+						</a>
+					</li>
+				</ul>
+
+				<a href="#"><strong>shop all blosh</strong></a>
+			</section>
+
+			<section>
+				<h4>sign up to hear updates from billie eilish</h4>
+				<form>
+					<label for="username">
+						Email
+						<input type="text" id="username" />
+					</label>
+
+					<label for="password">
+						Password
+						<input type="password" id="password" />
+					</label>
+
+					<label for="news">
+						<input type="checkbox" id="news" value="news" checked />
+						Billie Eilish
+					</label>
+				</form>
+			</section>
+
+			<section>
+				<a href="#"><strong>sign up now</strong></a>
+			</section>
+
+			<section>
+				<video autoplay loop muted>
+					<source src="images/billiebackground.mp4" type="video/mp4" />
+				</video>
+			</section>
+
+			<section>
+				<img src="images/tourimage.png" alt="buy tour tickets" />
+			</section>
+		</main>
 
 		<footer>
 			<ul>
@@ -198,10 +315,12 @@
 				<li>cookie choices</li>
 			</ul>
 
-			<p>If you are using a screen reader and are having problems using this website, please call 866-682-4413 for assistance.</p>
+			<p>
+				If you are using a screen reader and are having problems using this
+				website, please call 866-682-4413 for assistance.
+			</p>
 		</footer>
 
-	<script defer src="scripts/script.js"></script>
-</body>
-
+		<script defer src="scripts/script.js"></script>
+	</body>
 </html>
