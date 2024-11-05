@@ -59,6 +59,9 @@
 }
 
 
+html{
+  scroll-behavior: smooth;
+}
 
 
 
@@ -256,28 +259,62 @@ h5 {
 /*********************************************************/
 /* --------------------- CAROUSSEL --------------------- */
 /*********************************************************/
-/* ---------------------- MERCH ------------------------*/
 
 /* ---------------------- MERCH ------------------------*/
 
 /* ----------- MERCH TEXT -------------*/
 
 section:nth-of-type(2) ul {
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: visible;
+  position: relative;
   scrollbar-width: none;
   display: flex;
   list-style-type: none;
   gap: 1.5em;
+  margin: 0 1.5em;
+  padding: 0;
 }
 
 section:nth-of-type(2) ul li {
-  width: 15em;
+  position: relative;
+}
+
+section:nth-of-type(2) ul li a {
+  width: calc(50vw - 3em);
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+section:nth-of-type(2) ul li div{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+}
+section:nth-of-type(2) ul li div a {
+  position: absolute;
+  top: 0;
+  width: 4em;
+  height: 4em;
+  transform: translate(-50%);
+  border-radius: 50%;  outline: 0;
+  z-index: 99;
+
+}
+
+section:nth-of-type(2) ul li div a:nth-of-type(1){
+  left: 0;
+}
+section:nth-of-type(2) ul li div a:nth-of-type(2) {
+  right: -1em;
 }
 
 section:nth-of-type(2) ul li h3 {
   font-size: 1em;
+  margin-top: 16em;
 }
 
 section:nth-of-type(2) ul li p {
@@ -292,19 +329,25 @@ section:nth-of-type(2) img {
   width: 100%;
   height: 15em;
   object-fit: cover;
-  order: -2;
+  position: absolute;
+  transition: 1s ease-out;
+
 }
 
 section:nth-of-type(2) img:nth-of-type(2) {
-  display: none;
+  opacity: 0;
+  transition: 1s ease-out;
 }
 
+/* geneste code voor de hover */
 section:nth-of-type(2) ul li:hover img:nth-of-type(1) {
-  display: none;
+  opacity: 0;
+  transition: .3s;
 }
 
 section:nth-of-type(2) ul li:hover img:nth-of-type(2) {
-  display: block;
+  opacity: 1;
+  transition: .3s;
 }
 
 /* ----------- MERCH BUTTON -------------*/
@@ -339,15 +382,16 @@ section:nth-of-type(3) ul {
   list-style-type: none;
   gap: 1.5em;
 }
-
-section:nth-of-type(3) ul li {
+section:nth-of-type(3) ul li a {
   width: 15em;
   display: flex;
   flex-direction: column;
+  position: relative
 }
 
 section:nth-of-type(3) ul li h3 {
   font-size: 1em;
+  margin-top: 16em;
 }
 
 section:nth-of-type(3) ul li p {
@@ -362,20 +406,25 @@ section:nth-of-type(3) img {
   width: 100%;
   height: 15em;
   object-fit: cover;
-  order: -1;
+  position: absolute;
+  transition: 1s ease-out;
+
 }
 
 section:nth-of-type(3) img:nth-of-type(2) {
-  display: none;
+  opacity: 0;
+  transition: 1s ease-out;
 }
 
 /* geneste code voor de hover */
 section:nth-of-type(3) ul li:hover img:nth-of-type(1) {
-  display: none;
+  opacity: 0;
+  transition: .3s;
 }
 
 section:nth-of-type(3) ul li:hover img:nth-of-type(2) {
-  display: block;
+  opacity: 1;
+  transition: .3s;
 }
 
 
@@ -415,14 +464,16 @@ section:nth-of-type(4) ul {
   gap: 1.5em;
 }
 
-section:nth-of-type(4) ul li {
+section:nth-of-type(4) ul li a {
   width: 15em;
   display: flex;
   flex-direction: column;
+  position: relative
 }
 
 section:nth-of-type(4) ul li h3 {
   font-size: 1em;
+  margin-top: 16em;
 }
 
 section:nth-of-type(4) ul li p {
@@ -437,20 +488,24 @@ section:nth-of-type(4) img {
   width: 100%;
   height: 15em;
   object-fit: cover;
-  order: -1;
+  position: absolute;
+  transition: 1s ease-out;
 }
 
 section:nth-of-type(4) img:nth-of-type(2) {
-  display: none;
+  opacity: 0;
+  transition: 1s ease-out;
 }
 
 /* geneste code voor de hover */
 section:nth-of-type(4) ul li:hover img:nth-of-type(1) {
-  display: none;
+  opacity: 0;
+  transition: .3s;
 }
 
 section:nth-of-type(4) ul li:hover img:nth-of-type(2) {
-  display: block;
+  opacity: 1;
+  transition: .3s;
 }
 
 
