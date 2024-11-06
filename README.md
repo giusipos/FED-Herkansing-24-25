@@ -181,6 +181,7 @@ Ik gebruikte alleen tab en niet control, option command H om ook de headings te 
 
 - De tekst en knoppen bij de producten zien er nu duidelijker uit door wat styling.
 - Ik ben goed bezig met het toevoegen van animaties (de hover state) en de website ziet er nu dynamischer uit.
+- Ik heb bubbels kunnen toevoegen (met dank aan Sanne) aan mijn cursor!
 
 <strong>Wat niet goed ging:</strong>
 
@@ -229,6 +230,9 @@ Ik gebruikte alleen tab en niet control, option command H om ook de headings te 
 ### Dit was lastig/Is niet gelukt:
 
 Het is me niet gelukt om de wesbite een andere kleur te geven door en toggle toe te voegen.
+Ik heb geprobeerd door te vragen aan [ChatGPT](https://chatgpt.com/share/672b9906-2c10-800e-845e-2f77749b35e1), maar ik snapte niet wat er mis ging.
+
+Ik ben te laat begonnen om dit op te lossen.
 
   <img src="readme-images/dark:light.png" width="375px" alt="screenshot code van de root">
 </details>
