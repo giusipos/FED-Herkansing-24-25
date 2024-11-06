@@ -93,10 +93,6 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 ### Agenda voor meeting
 
-samen met je groepje opstellen
-
-Zeker! Hier is de tekst in een tabelvorm, zoals je vroeg:
-
 | Diya                                                    | Thi                                                    | Giulietta                                                                | Keysha                                                                  |
 | ------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
 | - Hoe maak je de rating?                                | - Zou ik alles moeten maken van de gekozen pagina's?   | - Hoe laat je bubbels komen uit de cursor?                               | - Hoe maak je verschillende tabs die je kunt openen op dezelfde pagina? |
@@ -127,15 +123,13 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 ### Agenda voor meeting
 
-samen met je groepje opstellen
-
 Hier is de bijgewerkte versie in tabelvorm:
 
 | Diya                                                     | Thi                                                            | Giulietta                                       | Keysha                                                                 |
-| -------------------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------- | --- |
+| -------------------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------- |
 | - Hoe maak je de carroussel?                             | - Hoe zet ik de navigatie buttons op de juiste plek?           | - Hoe krijg ik de video goed in de achtergrond? | - Hoe verander je de kleur van een svg?                                |
 | - Ik heb wat problemen met nth-of-child, hoe fix ik dit? | - Hoe zet ik het kruisje helemaal naar rechts?                 | - Ik heb geen classes en id's, mag dat?         | - Hoe krijg ik de tweede nav balk?                                     |
-|                                                          | - Mijn img nav icons willen niet goed op size, hoe fix ik dit? | - Hoe maak je de nav sticky?                    | - Waarom is er aan de bovenkant van mijn site een kleine pijl te zien? |     |
+|                                                          | - Mijn img nav icons willen niet goed op size, hoe fix ik dit? | - Hoe maak je de nav sticky?                    | - Waarom is er aan de bovenkant van mijn site een kleine pijl te zien? |
 
 ### Verslag van meeting
 
