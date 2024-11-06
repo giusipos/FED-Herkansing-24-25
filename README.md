@@ -95,19 +95,24 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 samen met je groepje opstellen
 
-| Diya                     | Giulietta                                    | Thi                                                     | Keysha |
-| ------------------------ | -------------------------------------------- | ------------------------------------------------------- | ------ |
-| - Section switch         | - Hoe krijg ik een trail achter mijn cursor. | - Verschillende tabs openen op dezelfde pagina, filter? | - ?    |
-| - Hoe maak je de rating? | -                                            | - ?                                                     | - ?    |
-|                          | ...                                          | ...                                                     | ...    |
+Zeker! Hier is de tekst in een tabelvorm, zoals je vroeg:
+
+| Diya                                                    | Thi                                                    | Giulietta                                                                | Keysha                                                                  |
+| ------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| - Hoe maak je de rating?                                | - Zou ik alles moeten maken van de gekozen pagina's?   | - Hoe laat je bubbels komen uit de cursor?                               | - Hoe maak je verschillende tabs die je kunt openen op dezelfde pagina? |
+| - Verschillende tabs openen op dezelfde pagina, filter? | - Hoe zou ik de h2 titels met een streep moeten maken? | - Kun je nu nog veranderen van focus? van responsive naar surface plane? | - Hoe voeg je een tabel samen in carroussel?                            |
 
 ### Verslag van meeting
 
-hier na afloop snel de uitkomsten van de meeting vastleggen
+- Creëer verschillende onderdelen op de pagina, en laat herhalende elementen weg. Gebruik `h2::before{}` en `h2::after{}` om strepen toe te voegen aan de titels/kopjes.
+- Voeg hover-effecten, transities, opacity, en animaties toe.
+- Zoek online naar bubbels-animaties om toe te voegen aan de cursor.
+- Je kunt de focus nog veranderen, maar geef dit graag door.
+- Let op dat hover-effecten alleen werken met een cursor en niet op een telefoon.
+- Maak een grid voor de lijst, of gebruik een grid in de lijst.
+- Voor de carrousel kan je de genoemde website gebruiken (student-assistente heeft dit goedgekeurd).
 
-- Hoe je een caroussel moet maken
-- Hoe kan je wanneer je met je muis over een plaatje heen gaat een ander plaatje laten verschijnen.
--
+We hebben bij Sanne nagevraagd of we een andere JavaScript-bibliotheek voor de carrousel mochten gebruiken. Dit werd echter niet goedgekeurd, dus we kunnen die carrousel niet toepassen.
 
 </details>
 
@@ -124,20 +129,23 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 samen met je groepje opstellen
 
-| student 1      | Giulietta                                               | student 3    | student 4                                   |
-| -------------- | ------------------------------------------------------- | ------------ | ------------------------------------------- |
-| dit bespreken  | - hoe krijk ik de achtergrond filmpjes vast op een punt | en ik dit    | en dan ik dat                               |
-| en dat ook nog | - hoe maak ik grid voor mijn producten                  | nog een punt | - hoe laat ik meer ruimte tussen de bubbels |
-| ...            | ...                                                     | ...          | ...                                         |
+Hier is de bijgewerkte versie in tabelvorm:
+
+| Diya                                                     | Thi                                                            | Giulietta                                       | Keysha                                                                 |
+| -------------------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------- | --- |
+| - Hoe maak je de carroussel?                             | - Hoe zet ik de navigatie buttons op de juiste plek?           | - Hoe krijg ik de video goed in de achtergrond? | - Hoe verander je de kleur van een svg?                                |
+| - Ik heb wat problemen met nth-of-child, hoe fix ik dit? | - Hoe zet ik het kruisje helemaal naar rechts?                 | - Ik heb geen classes en id's, mag dat?         | - Hoe krijg ik de tweede nav balk?                                     |
+|                                                          | - Mijn img nav icons willen niet goed op size, hoe fix ik dit? | - Hoe maak je de nav sticky?                    | - Waarom is er aan de bovenkant van mijn site een kleine pijl te zien? |     |
 
 ### Verslag van meeting
 
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Bepaal goed welke elementen op de site links of knoppen moeten zijn.
+- Maak twee navigatiemenu’s: één voor het hamburger-menu en één voor de zoekknop, inloggen, winkelmandje, etc.
+- Gebruik `justify-self: end;` om het kruisicoon aan de rechterkant te plaatsen (zie oefening 2 over grid).
+- Gebruik `filter: invert(1);` om iconen wit of zwart te maken.
+- Gebruik `nth-of-type` in plaats van `nth-child` voor betere volgorde in de opmaak.
+- Controleer in inspect mode met de pijltool of er ongewenste ruimtes door padding of marges zijn en verwijder deze indien nodig.
+- Verwijder zoveel mogelijk classes en ID's en gebruik liever pseudoklassen.
 
 </details>
 
@@ -163,22 +171,21 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 ### Agenda voor meeting
 
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Diya                                      | Thi                                                                                                                                      | Giulietta                                                  | Keysha          |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | --------------- |
+| - Tweede menu toevoegen en button stijlen | - Text bij plaatjes, mag dat? Of alles zelf maken?                                                                                       | - Hoe maak ik producten netjes met prijs, button en tekst? | Was er niet bij |
+| - Achtergrond weghalen en svg erin        | - Hoe maak ik filter tabs in hamburgernav en op pagina's?                                                                                | - Hoe laat ik tekst springen naar beneden?                 |                 |
+|                                           | - De images in collage bewegen mee wanneer je responsive bent                                                                            |                                                            |                 |
+|                                           | - Surface plane, website heeft al veel animaties. Tellen die mee voor surface plane als ik die namaak, of moet ik weer nieuwe toevoegen? |                                                            |                 |
 
 ### Verslag van meeting
 
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Plaats geen tekst op de afbeeldingen; je moet ze per afbeelding maken. Het is handig als je goed bent in Photoshop om de tekst te verwijderen.
+- Sybren stuurt een CodePen-link voor de filterfunctie.
+- De animaties die je kopieert van de originele site tellen mee voor de Surface Plane, maar je kunt altijd extra animaties toevoegen om alle vijf punten van de Surface Plane af te vinken.
+- Gebruik `display: flex` en `flex-wrap`.
+- Zet een grijze filter over een afbeelding met `::before` (zoek even een video voor uitleg)
+- Voeg het tweede menu toe en style de knop: verwijder de achtergrond en voeg een SVG in.
 
 </details>
 
