@@ -218,8 +218,10 @@ Ik gebruikte alleen tab en niet control, option command H om ook de headings te 
 
 ### Dit heb ik geleerd:
 
-- Ik heb geleerd hoe ik nth-of-type moet gebruiken (voor deze lessen had ik daar nog nooit gebruik van gemaakt)
+- Ik heb geleerd hoe ik nth-of-type moet gebruiken (voor deze lessen had ik daar nog nooit gebruik van gemaakt).
+  <img src="readme-images/nth-of-type.png.png" width="375px" alt="screenshot van code waar ik nth-of-type heb gebruikt">
 - Ik heb geleerd hoe ik achtergrond filmpjes kan toevoegen aan mijn website.
+  <img src="readme-images/backgroundvideo.png.png" width="375px" alt="screenshot van code waar ik mijn achtergrond filmpje heb toegevoegd">
 - Ik heb geleerd hoe je een hamburger menu moet maken.
   <img src="readme-images/hamburger.png" width="375px" alt="screenshot eigen website hamburger">
 - Ik denk geleerd te hebben hoe ik een carousel kan maken.
@@ -229,8 +231,10 @@ Ik gebruikte alleen tab en niet control, option command H om ook de headings te 
 
 ### Dit was lastig/Is niet gelukt:
 
-Het is me niet gelukt om de wesbite een andere kleur te geven door en toggle toe te voegen.
-Ik heb geprobeerd door te vragen aan [ChatGPT](https://chatgpt.com/share/672b9906-2c10-800e-845e-2f77749b35e1), maar ik snapte niet wat er mis ging.
+- Ik vond het erg lastig om geen ids en classes te gebruiken. Ik was daar zo an gewend en de manier van nth-of-type was helemaal nieuw voor mij. Ik vond het lastig om hier aan te wennen en om steeds te tellen hoe veel sections ik nou eigenlijk had.
+
+- Het is me niet gelukt om de wesbite een andere kleur te geven door en toggle toe te voegen.
+  Ik heb geprobeerd door te vragen aan [ChatGPT](https://chatgpt.com/share/672b9906-2c10-800e-845e-2f77749b35e1), maar ik snapte niet wat er mis ging.
 
 Ik ben te laat begonnen om dit op te lossen.
 
