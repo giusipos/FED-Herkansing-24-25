@@ -22,40 +22,26 @@
 
 
 
-/*********************************************************/
-/* ---------------------- CURSOR ----------------------- */
-/*********************************************************/
-
-@keyframes bubbel-ani {
-    to {
-        transform: translate(0, -40vw);
-        opacity: 0;
-    }
-}
-
-.cursor-trail {
-    position: absolute;
-    pointer-events: none;
-    width: 10px;
-    /* Adjust the size of the trail */
-    height: 10px;
-    opacity: 0.5;
-
-    animation: bubbel-ani 1.5s ease-out forwards;
-}
-
-
-
-
 
 /**********************************************************/
 /* ------------------- CSS REMEDY ----------------------- */
 /*********************************************************/
 
+
 *,
 *::after,
 *::before {
     box-sizing: border-box;
+}
+
+*:focus-visible,
+*::after,
+*::before {
+    border: 2px solid white;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
@@ -95,130 +81,6 @@
 
 
 
-
-/*********************************************************/
-/* ---------------------- HEADER ----------------------- */
-/*********************************************************/
-
-header {
-    min-height: 4em;
-    padding: 0 1em;
-    line-height: 1;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    position: fixed;
-    z-index: 10;
-    background: transparent;
-    /* transparent background to show the video */
-    color: white;
-
-    top: 0;
-    left: 0;
-    right: 0;
-
-}
-
-header a {
-    padding: 0.5em 0;
-    color: var(--color-text);
-    text-decoration: none;
-}
-
-header>a:first-of-type {
-    display: grid;
-    grid-template-columns: min-content min-content;
-    grid-gap: 0.25em;
-    align-items: center;
-}
-
-header>a:first-of-type img {
-    height: 3em;
-}
-
-header button {
-    padding: 0.5em;
-    display: flex;
-    align-items: center;
-    gap: 0.25em;
-
-    appearance: none;
-    background-color: var(--button-background);
-    border: none;
-    border-radius: 0.25em;
-
-    margin-bottom: 0.5em;
-}
-
-header button img {
-    height: 2em;
-}
-
-header>button {
-    order: -1;
-}
-
-#logo {
-    width: 100.66px;
-    height: 40.93px;
-}
-
-/* -------- LINK TO ICON ---------- */
-
-header>a:last-of-type img {
-    width: auto;
-    height: 2em;
-}
-
-nav button {
-    justify-self: start;
-}
-
-
-/* -------------- NAV  -------------*/
-nav {
-    padding: 1em;
-
-    display: grid;
-    align-content: start;
-    gap: 1em;
-
-    background-image: var(--menu-gradient);
-
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    /*   inset:0; */
-
-    transform: translateX(-100%);
-    transition: 1s;
-
-}
-
-/* ----------- SHOW MENU -------------*/
-
-nav.toonMenu {
-    transform: translateX(0);
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav a {
-    display: flex;
-}
-
-
-
-
-
 /*********************************************************/
 /* ------------------------ BODY ----------------------- */
 /*********************************************************/
@@ -238,7 +100,7 @@ main{
 
 /* ----------- ADD TO CHART BUTTON --------------- */
 
-section > a {
+main section > a {
     text-align: center;
     margin: 0 1.5em;
     color: var(--color-shop);
@@ -248,7 +110,7 @@ section > a {
     border-radius: 10px;
 }
 
-section > a:hover {
+main section > a:hover {
     color: var(--color-shop-button);
     border: 1px solid var(--color-shop-button);
     background-color: #083658;
@@ -300,17 +162,17 @@ main section ul:nth-of-type(2) li img {
 
 /* --------------- TEXT --------------- */
 
-section h2 {
+main section h2 {
     font-size: 1em;
     margin: 0 1.5em;
 }
 
-section p {
+main section p {
     font-size: 1em;
     font-family: 'billiefont2';
     margin: 0 1.5em;
 } 
-section label{
+main section label{
     font-size: 1em;
     font-family: 'billiefont2';
     margin: 0 1.5em;
@@ -319,18 +181,19 @@ section label{
     width: fit-content;
 }
 
-section label input{
+main section label input{
     width: 3em;
     background: none;
     border:none;
     margin: .5em 0;
 }
-section small{
+main section small{
     font-size: .75em;
     font-family: 'billiefont2';
     margin: 0 1.75em;
 }
-section p:last-of-type{
+
+main section p:last-of-type{
     text-transform: capitalize;
     font-size: .9;
 }
@@ -343,38 +206,3 @@ section p:last-of-type{
 
 
 
-
-
-
-/*********************************************************/
-/* ----------------------- FOOTER ---------------------- */
-/*********************************************************/
-
-footer ul {
-    padding: 0;
-    margin: 0;
-}
-
-footer ul li {
-    font-family: 'billiefont2';
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-
-    display: block;
-    margin: 10px 0;
-
-}
-
-footer p {
-    font-family: 'billiefont2';
-    font-size: 10px;
-
-    display: block;
-    text-align: center;
-
-    padding: 3em;
-    margin: 10px 0;
-
-}
