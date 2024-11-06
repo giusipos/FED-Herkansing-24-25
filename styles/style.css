@@ -106,13 +106,13 @@ html{
 /*********************************************************/
 
 header {
-  min-height: 4em;
+  min-height: 2em;
   padding: 0 1em;
   line-height: 1;
   
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 
   position: fixed;
   z-index: 10;
@@ -191,10 +191,6 @@ nav {
   background-image: var(--menu-gradient);
   
   position: fixed;
-  /* left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0; */
   inset:0;
 
   transform: translateX(-100%);
@@ -212,6 +208,11 @@ nav ul {
   margin: 0; 
   padding: 0;
   list-style: none;
+  font-size: 14px;
+}
+
+nav ul li {
+  padding: 1em;
 }
 
 nav a {
@@ -222,10 +223,10 @@ nav details{
   color: var(--color-text)
 }
 nav details ul{
-  font-size: 1em;
-  /* font-weight: thin; */
-  padding: .5em 1em;
-  font-family: billiefont2;
+  font-size: 13px;
+  /* padding: .5em 1em; */
+  padding-bottom: 1em;
+  font-family: 'billiefont2';
 }
 
 
@@ -445,6 +446,30 @@ section:nth-of-type(3) ul li:hover img:nth-of-type(2) {
   transition: .3s;
 }
 
+/* ----------- MUSIC RADIOS -------------*/
+
+section:nth-of-type(3)>div {
+  display: flex;
+  margin: 1em 0;
+  width: 100%;
+  justify-content: center;
+}
+
+
+section:nth-of-type(2)>div label input {
+  cursor: pointer;
+}
+
+/* ----------- MUSIC SCROLL ANIMATION -------------*/
+
+
+section:nth-of-type(3):has(div label:nth-of-type(2) input:checked) ul li {
+  transform: translateX(calc(-200% - 3em));
+}
+
+section:nth-of-type(3):has(div label:nth-of-type(3) input:checked) ul li {
+  transform: translateX(calc(-400% - 6em));
+}
 
 /* ----------- MUSIC BUTTON -------------*/
 
