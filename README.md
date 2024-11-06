@@ -83,13 +83,13 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 ### Stand van zaken
 
-Wat goed ging:
+<strong>Wat goed ging:</strong>
 
 - De opmaak van de html gng redelijk goed. Ik kon me nog goed herinneren wat de volgorde was van de opmaak en heb ik netjes alles op een rijtje gezet.
--
 
-Wat niet goed ging:
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<strong>Wat niet goed ging:</strong>
+
+- Ik vod het lastig om voor het eerst met de ":root" te werken. Ik snapte niet helemaal hoe ik de kleuren moest aanroepen.
 
 ### Agenda voor meeting
 
@@ -119,11 +119,19 @@ We hebben bij Sanne nagevraagd of we een andere JavaScript-bibliotheek voor de c
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<strong>Wat goed ging:</strong>
+
+- Ik begon netjes mijn css op orde zetten, dus de
+- De video-achtergrond en
+- De hamburger menu is me gelukt om toe te voegen.
+- Navigatie is gelukt om toe te voegen en werkt ook.
+
+<strong>Wat niet goed ging:</strong>
+
+- Ik had wat moeite met het gebruik van flexbox voor de layout van de producten van mijn wesbite.
+- Het was lastig om de juiste grootte te krijgen voor de iconen in de navigatie.
 
 ### Agenda voor meeting
-
-Hier is de bijgewerkte versie in tabelvorm:
 
 | Diya                                                     | Thi                                                            | Giulietta                                       | Keysha                                                                 |
 | -------------------------------------------------------- | -------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------- |
@@ -161,7 +169,14 @@ Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er v
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<strong>Wat goed ging:</strong>
+
+- De tekst en knoppen bij de producten zien er nu duidelijker uit door wat styling.
+- Ik ben goed bezig met het toevoegen van animaties (de hover state) en de website ziet er nu dynamischer uit.
+
+<strong>Wat niet goed ging:</strong>
+
+- De padding en marges op sommige elementen zorgden voor ongewenste witruimtes, wat extra werk vereiste.
 
 ### Agenda voor meeting
 
@@ -210,12 +225,10 @@ Korte omschrijving met plaatjes
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-Nb. ChatGpT en andere AI horen er ook bij.
-Nb. Vermeld de bronnen ook in je code.
-
-1. bron 1
-2. bron 2
-3. ...
+1. [Cursor path voor bubbels die van mijn muis komen](https://chatgpt.com/share/672b8f5e-2154-800e-ada8-3ef1d6b2d20d)
+2. [Hoe kan ik een gradient background krijgen?](https://chatgpt.com/share/672b8f1f-e35c-800e-af36-d35858bab1c4)
+3. [CSS fouten checker](https://chatgpt.com/share/672b8fab-0864-800e-ac7c-d923093717fb)
+4. [Hoe krijg ik text op een plaatje](https://www.w3schools.com/howto/howto_css_image_text.asp)
+5. [Carousel](https://codepen.io/shooft/pen/LYwJOEG)
 
 </details>
