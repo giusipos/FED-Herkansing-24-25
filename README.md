@@ -42,8 +42,9 @@ Home pagina
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
-Tour pagina  
- <img src="readme-images/tourpagina.png" width="375px" alt="screenshot van de tour pagina">
+Product pagina  
+ <img src="readme-images/product.png" width="375px" alt="screenshot de product pagina">
+<img src="readme-images/product2.png" width="375px" alt="screenshot de product pagina">
 
 </details>
 
@@ -54,10 +55,16 @@ Tour pagina
 
 ### Bevindingen
 
-Lijst met je bevindingen die in de test naar voren kwamen:
+Lijst met de bevindingen die in de test naar voren kwamen:
 
 - De screenreader sloeg sommige stukken over en snapte ik de volgorde niet helemaal van de screenreader.
 - Wel had de website de optie gegeven om de nav over te slaan.
+
+<img src="readme-images/PDF document.png" width="375px" alt="bevindingen van de website">
+<img src="readme-images/PDF document 2.png" width="375px" alt="bevindingen van de website">
+<img src="readme-images/PDF document 3.png" width="375px" alt="bevindingen van de website">
+<img src="readme-images/PDF document 4.png" width="375px" alt="bevindingen van de website">
+<img src="readme-images/PDF document 5.png" width="375px" alt="bevindingen van de website">
 
 </details>
 
@@ -158,7 +165,12 @@ We hebben bij Sanne nagevraagd of we een andere JavaScript-bibliotheek voor de c
 
 ### Bevindingen
 
-Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+Ik zag bij mijn website dat er veel nog niet helemaal goed ging.
+<img src="readme-images/document.png" width="375px" alt="bevindingen van de website">
+<img src="readme-images/document 2.png" width="375px" alt="bevindingen van de website">
+<img src="readme-images/document 3.png" width="375px" alt="bevindingen van de website">
+<img src="readme-images/document 4.png" width="375px" alt="bevindingen van de website">
+<img src="readme-images/document 5.png" width="375px" alt="bevindingen van de website">
 
 </details>
 
@@ -215,9 +227,9 @@ Korte omschrijving met plaatjes
 
 ### Dit was lastig/Is niet gelukt:
 
-Korte omschrijving met plaatjes
+Het is me niet gelukt om de wesbite een andere kleur te geven door en toggle toe te voegen.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/dark:light.png" width="375px" alt="screenshot code van de root">
 </details>
 
 ## Bronnenlijst
