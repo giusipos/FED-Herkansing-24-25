@@ -214,7 +214,7 @@ Ik gebruikte alleen tab en niet control, option command H om ook de headings te 
 
 ### De uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/FireShot Capture 003 - Billie Eilish - Store - Billie Eilish - Store - 127.0.0.1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/FireShot Capture 004 - Billie Eilish - Store - Billie Eilish - Store - 127.0.0.1.png" width="375px" alt="uitomst opdracht 1">
 
 ### Dit heb ik geleerd:
 
