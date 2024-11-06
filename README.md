@@ -33,7 +33,7 @@ Surface plane
 
 ### Je opdracht:
 
-[Billie Eilish Shop](https://store.billieeilish.com/?srsltid=AfmBOorSzzkawHN1gOdABLZgk0mE4bb3E88AUou-03HkgCPbakYf1R-m)
+[Billie Eilish Shop](http://web.archive.org/web/20240822181821/https://store.billieeilish.com/)
 
 #### Screenshot(s) van de eerste pagina (small screen):
 
@@ -165,12 +165,8 @@ We hebben bij Sanne nagevraagd of we een andere JavaScript-bibliotheek voor de c
 
 ### Bevindingen
 
-Ik zag bij mijn website dat er veel nog niet helemaal goed ging.
-<img src="readme-images/document.png" width="375px" alt="bevindingen van de website">
-<img src="readme-images/document 2.png" width="375px" alt="bevindingen van de website">
-<img src="readme-images/document 3.png" width="375px" alt="bevindingen van de website">
-<img src="readme-images/document 4.png" width="375px" alt="bevindingen van de website">
-<img src="readme-images/document 5.png" width="375px" alt="bevindingen van de website">
+Ik besefte ik dat ik niet goed mijn toetsenbord had gebruikt om mijn VoiceOver te besturen.
+Ik gebruikte alleen tab en niet control, option command H om ook de headings te lezen. Uiteindelijk is het gelukt om goed mijn VoiceOver te laten besturen.
 
 </details>
 
@@ -215,15 +211,20 @@ Ik zag bij mijn website dat er veel nog niet helemaal goed ging.
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-### Je uitkomst - karakteristiek screenshots:
+### De uitkomst - karakteristiek screenshots:
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
-### Dit ging goed/Heb ik geleerd:
+### Dit heb ik geleerd:
 
-Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+- Ik heb geleerd hoe ik nth-of-type moet gebruiken (voor deze lessen had ik daar nog nooit gebruik van gemaakt)
+- Ik heb geleerd hoe ik achtergrond filmpjes kan toevoegen aan mijn website.
+- Ik heb geleerd hoe je een hamburger menu moet maken.
+  <img src="readme-images/hamburger.png" width="375px" alt="screenshot eigen website hamburger">
+- Ik denk geleerd te hebben hoe ik een carousel kan maken.
+  <img src="readme-images/carousel.png" width="375px" alt="screenshot eigen website carousel">
+- Ik heb geleerd hoe ik een een form kan maken met labels en al.
+  <img src="readme-images/form.png" width="375px" alt="screenshot code van de html van een form">
 
 ### Dit was lastig/Is niet gelukt:
 
