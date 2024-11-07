@@ -1,28 +1,3 @@
-/*********************************************************/
-/* ------------------------ FONT ----------------------- */
-/*********************************************************/
-
-@font-face {
-    /* Equity A text - regular */
-    font-family: 'billiefont';
-    src: url("../fonts/font.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    /* Equity A text - regular */
-    font-family: 'billiefont2';
-    src: url("../fonts/billiefont2.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
-
-
-
 /**********************************************************/
 /* ------------------- CSS REMEDY ----------------------- */
 /*********************************************************/
@@ -48,39 +23,6 @@ html {
 
 
 
-
-/*********************************************************/
-/* ----------------- CUSTOM PROPERTIES ----------------- */
-/*********************************************************/
-
-:root {
-    /* --------------------------LIGHT/DARK MODE------------------------------ */
-    color-scheme: light dark;
-
-    --accent-color: var(--color-theme);
-    /* ----------------------------------------------------------------------- */
-
-    --color-text: #10a4ec;
-    --color-background: #083659;
-
-    --general-color: black;
-    --header-gradient: linear-gradient(transparent, transparent);
-    --menu-gradient: linear-gradient(black, black);
-    /* --button-color:#fff; */
-    --button-background: transparent;
-
-    /* --------shop buttons------- */
-    --color-shop: black;
-    --color-shop-button: #10a4ec;
-
-    --color-border: #027399;
-    --whiteSpace: 1em;
-
-}
-
-
-
-
 /*********************************************************/
 /* ------------------------ BODY ----------------------- */
 /*********************************************************/
@@ -93,14 +35,14 @@ body {
     margin: 0;
 }
 
-main{
+main {
     margin-top: 4.5rem;
 }
 
 
 /* ----------- ADD TO CHART BUTTON --------------- */
 
-main section > a {
+main section>a {
     text-align: center;
     margin: 0 1.5em;
     color: var(--color-shop);
@@ -110,7 +52,7 @@ main section > a {
     border-radius: 10px;
 }
 
-main section > a:hover {
+main section>a:hover {
     color: var(--color-shop-button);
     border: 1px solid var(--color-shop-button);
     background-color: #083658;
@@ -122,13 +64,13 @@ main section > a:hover {
 
 /* -------------- IMAGES --------------- */
 
-main section{
+main section {
     display: flex;
     flex-direction: column;
     gap: .5em;
 }
 
-main section > ul:nth-of-type(1){
+main section>ul:nth-of-type(1) {
     order: -1;
     display: flex;
     overflow-x: auto;
@@ -136,14 +78,16 @@ main section > ul:nth-of-type(1){
     list-style: none;
 
 }
- main section ul:nth-of-type(1) li img {
+
+main section ul:nth-of-type(1) li img {
     min-width: 100vw;
     height: 30em;
     object-fit: cover;
     display: flex;
 
 }
-main section > ul:nth-of-type(2){
+
+main section>ul:nth-of-type(2) {
     order: -1;
     display: flex;
     overflow-x: auto;
@@ -171,8 +115,9 @@ main section p {
     font-size: 1em;
     font-family: 'billiefont2';
     margin: 0 1.5em;
-} 
-main section label{
+}
+
+main section label {
     font-size: 1em;
     font-family: 'billiefont2';
     margin: 0 1.5em;
@@ -181,28 +126,20 @@ main section label{
     width: fit-content;
 }
 
-main section label input{
+main section label input {
     width: 3em;
     background: none;
-    border:none;
+    border: none;
     margin: .5em 0;
 }
-main section small{
+
+main section small {
     font-size: .75em;
     font-family: 'billiefont2';
     margin: 0 1.75em;
 }
 
-main section p:last-of-type{
+main section p:last-of-type {
     text-transform: capitalize;
     font-size: .9;
 }
-
-
-
-
-
-
-
-
-

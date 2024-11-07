@@ -2,21 +2,7 @@
 /* ------------------------ FONT ----------------------- */
 /*********************************************************/
 
-@font-face {
-  /* Equity A text - regular */
-  font-family: 'billiefont';
-  src: url("../fonts/font.woff") format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
-@font-face {
-  /* Equity A text - regular */
-  font-family: 'billiefont2';
-  src: url("../fonts/billiefont2.woff") format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
 
 
@@ -29,14 +15,19 @@
 /* ------------------- CSS REMEDY ----------------------- */
 /*********************************************************/
 
-*, *::after, *::before {
-  box-sizing: border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
-*:focus-visible, *::after, *::before{
+
+*:focus-visible,
+*::after,
+*::before {
   border: 2px solid white;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -47,32 +38,7 @@ html{
 /* ----------------- CUSTOM PROPERTIES ----------------- */
 /*********************************************************/
 
-:root {
-  /* --------------------------LIGHT/DARK MODE------------------------------ */
-  color-scheme:light dark;
 
-  --accent-color:var(--color-theme);
-  /* ----------------------------------------------------------------------- */
-
-	--color-text: #10a4ec;
-	--color-background:#083659;
-  --color-tour: #ec7d02;
-  --color-tour-white: #FFFFFF;
-
-	--general-color: black;
-	--header-gradient: linear-gradient(transparent, transparent);
-	--menu-gradient: linear-gradient(black, black);
-	/* --button-color:#fff; */
-	--button-background: transparent;
-
-  /* --------shop buttons------- */
-  --color-shop: black;
-  --color-shop-button: #10a4ec;
-
-  --color-border:#027399;
-  --whiteSpace: 1em;
-
-}
 
 
 
@@ -83,10 +49,10 @@ html{
 /*********************************************************/
 
 body {
-	color: var(--color-text);
-	background-color: var(--color-background);
-	text-transform: uppercase;
-	font-family: 'billiefont';
+  color: var(--color-text);
+  background-color: var(--color-background);
+  text-transform: uppercase;
+  font-family: 'billiefont';
   margin: 0;
   background-image: linear-gradient(#083658, #083658, #083658, #083658, #083659, #083659, #083659, #081c3c, #081c3c, #080c14, black, black);
 }
@@ -156,9 +122,10 @@ section:nth-of-type(2) ul li a {
   position: relative;
 }
 
-section:nth-of-type(2) ul li div a:nth-of-type(1){
+section:nth-of-type(2) ul li div a:nth-of-type(1) {
   left: 0;
 }
+
 section:nth-of-type(2) ul li div a:nth-of-type(2) {
   right: -1em;
 }
@@ -204,7 +171,7 @@ section:nth-of-type(2) ul li:hover img:nth-of-type(2) {
 
 /* ----------- MERCH RADIOS -------------*/
 
-section:nth-of-type(2) > div{
+section:nth-of-type(2)>div {
   display: flex;
   margin: 1em 0;
   width: 100%;
@@ -219,16 +186,17 @@ section:nth-of-type(2)>div label input {
 /* ----------- MERCH SCROLL ANIMATION -------------*/
 
 
-section:nth-of-type(2):has(div label:nth-of-type(2) input:checked) ul li{
+section:nth-of-type(2):has(div label:nth-of-type(2) input:checked) ul li {
   transform: translateX(calc(-200% - 3em));
 }
+
 section:nth-of-type(2):has(div label:nth-of-type(3) input:checked) ul li {
   transform: translateX(calc(-400% - 6em));
 }
 
 /* ----------- MERCH BUTTON -------------*/
 
-section:nth-of-type(2) > a {
+section:nth-of-type(2)>a {
   position: absolute;
   left: 6em;
   right: 6em;
@@ -241,7 +209,7 @@ section:nth-of-type(2) > a {
   border-radius: 10px;
 }
 
-section:nth-of-type(2) > a:hover {
+section:nth-of-type(2)>a:hover {
   color: var(--color-shop-button);
   border: 1px solid var(--color-shop-button);
   background-color: var(--color-background);
@@ -258,10 +226,11 @@ section:nth-of-type(3) ul {
   list-style-type: none;
   gap: 1.5em;
 }
+
 section:nth-of-type(3) ul li a {
   color: var(--color-shop-button);
   text-decoration: none;
-  
+
   width: 15em;
   display: flex;
   flex-direction: column;
@@ -333,7 +302,7 @@ section:nth-of-type(3):has(div label:nth-of-type(3) input:checked) ul li {
 
 /* ----------- MUSIC BUTTON -------------*/
 
-section:nth-of-type(3) > a {
+section:nth-of-type(3)>a {
   position: absolute;
   left: 6em;
   right: 6em;
@@ -346,7 +315,7 @@ section:nth-of-type(3) > a {
   border-radius: 10px;
 }
 
-section:nth-of-type(3) > a:hover {
+section:nth-of-type(3)>a:hover {
   color: var(--color-shop-button);
   border: 1px solid var(--color-shop-button);
   background-color: var(--color-background);
@@ -441,7 +410,7 @@ section:nth-of-type(4):has(div label:nth-of-type(3) input:checked) ul li {
 
 /* ---------- BLOHSH BUTTON -------------*/
 
-section:nth-of-type(4) > a {
+section:nth-of-type(4)>a {
   position: absolute;
   left: 6em;
   right: 6em;
@@ -524,9 +493,9 @@ section:nth-of-type(6) a {
 }
 
 section:nth-of-type(6) a:hover {
-    color: var(--color-shop-button);
-    border: 1px solid var(--color-shop-button);
-    background-color: #081c3c;
+  color: var(--color-shop-button);
+  border: 1px solid var(--color-shop-button);
+  background-color: #081c3c;
 }
 
 
@@ -537,7 +506,7 @@ section:nth-of-type(6) a:hover {
 /* ----------------------- FOOTER ---------------------- */
 /*********************************************************/
 
-footer ul{
+footer ul {
   padding: 0;
   margin: 0;
 }
@@ -553,7 +522,7 @@ footer ul li {
 
   display: block;
   margin: 10px 0;
-  
+
 }
 
 footer p {

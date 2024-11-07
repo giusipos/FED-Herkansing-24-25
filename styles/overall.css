@@ -74,11 +74,16 @@ html {
 /*********************************************************/
 /* ----------------- CUSTOM PROPERTIES ----------------- */
 /*********************************************************/
-
 :root {
-    --color-text: #10a4ec;
+    /* --------------------------LIGHT/DARK MODE------------------------------ */
+    color-scheme: light dark;
+
+    --accent-color: var(--color-theme);
+    /* ----------------------------------------------------------------------- */
+
+    --color-text: light-dark(#10a4ec, #ec7d02);
     --color-background: #083659;
-    --color-tour: #ec7d02;
+    --color-tour: light-dark(#ec7d02, #10a4ec);
     --color-tour-white: #FFFFFF;
 
     --general-color: black;
@@ -93,8 +98,8 @@ html {
 
     --color-border: #027399;
     --whiteSpace: 1em;
-}
 
+}
 
 
 
@@ -109,7 +114,8 @@ header {
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 1em;
 
     position: fixed;
     z-index: 10;
@@ -126,6 +132,7 @@ header a {
     padding: 0.5em 0;
     color: var(--color-text);
     text-decoration: none;
+
 }
 
 header>a:first-of-type {
@@ -133,6 +140,7 @@ header>a:first-of-type {
     grid-template-columns: min-content min-content;
     grid-gap: 0.25em;
     align-items: center;
+    margin: 0 auto;
 }
 
 header>a:first-of-type img {
